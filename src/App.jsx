@@ -66,6 +66,8 @@ function App() {
     if (newQuantity < 1) {
       removeFromCart(productId);
       return;
+
+
     }
     setCartItems(
       cartItems.map((item) =>

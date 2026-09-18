@@ -167,6 +167,8 @@ function App() {
 
             {/* Wishlist Button with Count */}
             <button className="nav-btn icon-btn">
+
+
               ♡
               {wishlist.length > 0 && (
                 <span className="badge">{wishlist.length}</span>

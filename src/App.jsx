@@ -85,6 +85,8 @@ function App() {
     0
   );
 
+
+
   //WISHLIST FUNCTION
 
   function toggleWishlist(productID) {

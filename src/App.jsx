@@ -99,6 +99,8 @@ function App() {
 
   let filteredProducts = products.filter((product) => {
     const searchLower = searchTerm.toLowerCase();
+
+
     const matchesSearch =
       product.name.toLowerCase().includes(searchLower) ||
       product.brand.toLowerCase().includes(searchLower);

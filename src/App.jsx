@@ -45,6 +45,11 @@ function App() {
               : item
         )
       );
+
+
+
+
+
     } else {
       //PRODUCT NOT THERE
       setCartItems([...cartItems, { ...product, quantity: 1 }]);
